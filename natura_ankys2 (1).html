@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturaleza</title>
+
+    <style>
+
+        body {
+            background-color: #556B2F;
+        }
+
+        h1{
+            color: beige;
+            text-align: center;
+            font-family: 'TAHOMA', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 70px;
+        }
+       /* #imgtitle{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+             width: 100%;
+             height: auto;
+        }
+      */
+      #imgtitle {
+    height: 350px; 
+    width: 100%;
+    background: black; 
+    background-size: 100% 100%;
+}
+      p, h2, h4 {
+        color: beige;
+      }
+      
+   /*   body {
+  padding: 20px;
+  font-family: sans-serif;
+  background: #f2f2f2;
+} */
+/*
+img {
+  width: 100%; /* need to overwrite inline dimensions 
+  height: auto;
+} */
+
+h2 {
+  margin-bottom: .5em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+
+/* hover styles */
+.location-listing {
+  position: relative;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+@media (hover: none) { 
+  .location-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
+}
+
+    </style>
+</head>
+<body>
+    <h1>Naturaleza</h1>
+<h2>___________________________________________________________________</h2>
+    <figure>
+      <img  id ="imgtitle" src="https://cdn.pixabay.com/photo/2020/05/25/02/39/landscape-5216722_960_720.jpg" width="900" alt="montaña">
+    </figure> 
+    
+    <P><a href="Descripcion"></a></P>
+    <p><a href="http://fotos."></a></p>
+
+       <P><h4>La mejor obra de arte creada por el mejor artista del mundo.</P></h4>
+
+       <h2>Descripcion</h2>
+
+       <div>
+       <p> La obra de <strong>Arte</strong> mas cara que el mundo ofrece, esta al alcance de todos y la encontramos nada mas ni nada 
+           menos que en la <strong>naturaleza.</strong> 
+           Es insolito pensar que personas de clase alta muchas veces estan dispuestos a pagar altas sumas de dinero por obras 
+           de arte solo para ver una sola pintura, escultura, mosaico, basija, etc.
+           Cuando podemos disfrutar de un sin fin de paisajes naturales llenos de armonia, color, y vida de manera
+           mas facil y accesibles para todas las personas sin distincion de clase social.
+        </p>
+    </div>
+    <div>
+    <p><strong>Porque la exelencia y perfeccion de la naturaleza no tienen valor monetario</strong></p>
+
+    <h2>fotos.</h2>
+   <!-- </div>
+    <section> 
+      <img src="flores girasol jpg.jpg"  alt="girasol">  
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Drei_Sonnenblumen_im_Feld.JPG/800px-Drei_Sonnenblumen_im_Feld.JPG" width="300" alt="bosque"> <img src="flor bonita.jpg" alt="flor" width="300"></section> 
+    <h2>_________________________________________________________________</h2>                
+-->
+      
+            
+      
+      <div class="child-page-listing">
+
+  <h2>Our Locations</h2>
+
+  <div class="grid-container">
+
+    <article id="3685" class="location-listing">
+
+      <a class="location-title" href="#">
+          San Francisco           </a>
+
+      <div class="location-image">
+        <a href="#">
+            <img width="300" height="169" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Drei_Sonnenblumen_im_Feld.JPG/800px-Drei_Sonnenblumen_im_Feld.jpg" alt="Flor">    </a>
+
+      </div>
+
+    </article>
+
+    <article id="3688" class="location-listing">
+
+      <a class="location-title" href="#">
+          London            </a>
+
+      <div class="location-image">
+        <a href="#">
+            <img width="300" height="169" src="https://conceitos.com/wp-content/uploads/Bosque.jpg" alt="Bosques">  </a>
+
+      </div>
+
+    </article>
+
+    <article id="3691" class="location-listing">
+
+      <a class="location-title" href="#">
+          New York            </a>
+
+      <div class="location-image">
+        <a href="#">
+            <img width="300" height="169" src="https://envolverde.com.br/wp-content/uploads/2015/09/Rio.jpg" alt="Rios">  </a>
+
+      </div>
+
+    </article>
+
+    <article id="3694" class="location-listing">
+
+      <a class="location-title" href="#">
+          Cape Town           </a>
+
+      <div class="location-image">
+        <a href="#">
+            <img width="300" height="169" src="https://mexicorutamagica.mx/wp-content/uploads/2021/12/montana-de-colores-peru.jpg" alt="Montañas">  </a>
+
+      </div>
+
+    </article>
+
+    
+  </div>
+  <!-- end grid container -->
+
+</div>
+
+
+</body>
+</html>
